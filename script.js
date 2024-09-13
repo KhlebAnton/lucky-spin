@@ -29,8 +29,10 @@ function setSecondSpin() {
         winInfo.classList.remove('hidden');
         startTimer();
         document.getElementById('attacment').style.opacity = '0';
+        document.querySelector('.gif-win').classList.remove('hidden')
         btn.innerHTML= 'Get money'
         bannerInfo.addEventListener('click', getMoney);
+        document.getElementById('sound').play();
     }, 3500);
 };
 
