@@ -194,6 +194,7 @@ img {
     transition: .1s;
     position: relative;
     z-index: 5;
+    pointer-events: none;
 }
 .btn:active {
     background: #DC261B57;
